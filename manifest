@@ -1,6 +1,6 @@
 : 1
 name: robin-hood-hashing
-version: 3.11.5-a.0.z
+version: 3.11.5
 summary: Fast & memory efficient hashtable based on robin hood hashing for C++11/14/17/20
 license: MIT ; MIT License.
 description-file: upstream/README.md
