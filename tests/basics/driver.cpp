@@ -1,12 +1,11 @@
 
-
 #include <robin_hood.h>
-
-#undef NDEBUG
-#include <cassert>
 
 #include <array>
 #include <string>
+
+#undef NDEBUG
+#include <cassert>
 
 int main ()
 {
@@ -33,6 +32,7 @@ int main ()
 
         try {
             my_map.at(4);
+            assert(false);
         } catch (std::out_of_range const&) {
             // pass
         }
