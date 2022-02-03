@@ -1,0 +1,3 @@
+import libs = robin-hood-hashing%lib{robin-hood-hashing}
+
+exe{driver}: {hxx cxx}{**} $libs testscript{**}

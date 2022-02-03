@@ -1,0 +1,7 @@
+project = robin-hood-hashing
+
+using version
+using config
+using test
+using install
+using dist
