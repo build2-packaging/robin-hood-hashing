@@ -1,11 +1,11 @@
 : 1
 name: robin-hood-hashing
-version: 3.11.5
+version: 3.11.5-a.0.z
 summary: Fast & memory efficient hashtable based on robin hood hashing for C++11/14/17/20
 license: MIT ; MIT License.
 description-file: upstream/README.md
 url: https://github.com/martinus/robin-hood-hashing
-package-url: https://example.com ; FIXME
+package-url: https://github.com/tcbrindle/robin-hood-hashing
 email: t.c.brindle@gmail.com
 build-error-email: t.c.brindle@gmail.com
 depends: * build2 >= 0.14.0
